@@ -5,7 +5,7 @@ A deep learning project that classifies rice varieties.
 
 **BACKEND SETUP**
 
-1. cd backend
+1. cd rice-classifier-ui/backend
 2. Virtual environment
     python -m venv venv
 

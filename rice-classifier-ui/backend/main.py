@@ -11,7 +11,7 @@ from utils.preprocess import prepare_image
 app = FastAPI()
 
 # 1. Load model with compile=False to avoid version conflicts
-model = tf.keras.models.load_model('model/final_rice_modelv2.keras', compile=False)
+model = tf.keras.models.load_model('model/best_rice_model.keras', compile=False)
 
 # 2. Setup CORS so your Frontend can talk to this Backend
 app.add_middleware(
