@@ -42,6 +42,17 @@ yarn-error.log*
 # python virtual environments
 venv/
 .venv/
+venv_final/
+final_venv/
 env/
 backend/venv/
+backend/.venv/
+backend/venv_final/
+*.keras
+
+# Cache and Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
 next-env.d.ts
