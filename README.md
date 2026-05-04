@@ -24,6 +24,9 @@ A deep learning project that classifies rice varieties.
 
 5. Run "uvicorn main:app --reload" at /rice-classifier-ui/backend
 
+6. Collab file 
+    - https://colab.research.google.com/drive/1uEa-6CFRqfvyMB2RwM09Oifn5Yfd5k3g?usp=sharing#scrollTo=v_4sVmYLS9UX
+   
 
 **FRONTEND SETUP**
 Assuming u are at the root folder, go to the terminal and run sequentially:
