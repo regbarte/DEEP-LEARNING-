@@ -25,8 +25,9 @@ A deep learning project that classifies rice varieties from uploaded images usin
    pip install -r requirements.txt
    ```
 5. Place the trained model file in `rice-classifier-ui/backend/model/`
+   - Pretrained model has phase 1 and phase 2 below to be downloaded and plugged into the file directory.
    - The backend expects: `model/best_rice_model.keras`
-6. Start the API:
+7. Start the API:
    ```bash
    uvicorn main:app --reload
    ```
